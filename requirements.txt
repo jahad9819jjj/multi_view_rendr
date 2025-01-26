@@ -1,0 +1,7 @@
+easydict
+matplotlib
+natsort
+numpy
+open3d==0.18.0
+opencv_python
+opencv_python_headless
