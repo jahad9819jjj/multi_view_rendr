@@ -2,6 +2,15 @@
 
 ![alt text](docs/output.gif)
 
+## License
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+## Note
+Based on the `Open3D` codebase context,the rendering type is categorized as **ray-casting**, not ray-tracing or rasterization. 
+The terminology can be confusing since `Open3D` uses Embree (a ray-tracing library) but implements ray-casting functionality. 
+The key distinction lies in its application: ray-casting is used for geometric queries and volume rendering, not for photorealistic ray-tracing.
+
 ## Table of Contents
 - [MultiViewRenderer](#multiviewrenderer)
   - [Table of Contents](#table-of-contents)
@@ -18,9 +27,7 @@
         - [Configuration Log (config.log)](#configuration-log-configlog)
 
 
-## Directory explanation
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Install
 ```
